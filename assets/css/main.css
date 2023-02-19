@@ -178,7 +178,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 0.5em 0;
 	}
 
 		p.content {
@@ -2370,8 +2370,13 @@ input, select, textarea {
 	}
 
 		.image img {
+			display: flex;
+			/* flex-direction: row; */
 			border-radius: 8px;
-			display: block;
+			/* display: block; */
+			width: 10rem;
+			margin: 1rem;
+
 		}
 
 		.image.left, .image.right {
@@ -2412,8 +2417,6 @@ input, select, textarea {
 
 			.image.main img {
 				width: 100%;
-				padding-bottom: 1em;
-				
 			}
 
 /* List */
@@ -3592,7 +3595,7 @@ input, select, textarea {
 			}
 
 			#main > .main > .image.main:first-child {
-				margin: -5em 5em 5em -5em;
+				margin: -5em 0 5em -5em;
 				width: calc(100% + 10em);
 				border-top-right-radius: 0.25em;
 				border-top-left-radius: 0.25em;

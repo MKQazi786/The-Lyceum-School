@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "html5up-stellar",
+			"path": "."
+		},
+		{
+			"name": "The-Lyceum-School",
+			"path": "../../Desktop/The-Lyceum-School"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "html5up-stellar"
+	}
+}
